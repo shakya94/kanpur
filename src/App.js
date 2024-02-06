@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./header";
 
 function App() {
-  return (
-   <div>My Name is Harshit Shakya This is under development</div>
-  );
+  return <Header></Header>;
 }
 
 export default App;
